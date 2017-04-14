@@ -1,6 +1,6 @@
 # Darkness Of Arch Theme
 
-An sddm theme with animations and music
+An animated sddm theme with music
 
 # Installation
 
