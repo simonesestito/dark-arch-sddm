@@ -162,7 +162,7 @@ Rectangle {
                     id: btnReboot
                     anchors.horizontalCenter: parent.horizontalCenter
                     width: 50
-                    source: "reboot.png"
+                    source: "resources/reboot.png"
 
                     visible: sddm.canReboot
 
@@ -187,7 +187,7 @@ Rectangle {
                     id: btnPoweroff
                     anchors.horizontalCenter: parent.horizontalCenter
                     width: 50
-                    source: "poweroff.png"
+                    source: "resources/poweroff.png"
 
                     visible: sddm.canPowerOff
 
@@ -299,7 +299,7 @@ Rectangle {
                     // width: 245
                     anchors.verticalCenter: parent.verticalCenter
 
-                    arrowIcon: "angle-down.png"
+                    arrowIcon: "resources/angle-down.png"
 
                     model: sessionModel
                     index: sessionModel.lastIndex
@@ -323,7 +323,7 @@ Rectangle {
                     anchors.verticalCenter: parent.verticalCenter
                     font.pixelSize: 14
 
-                    arrowIcon: "angle-down.png"
+                    arrowIcon: "resources/angle-down.png"
 
                     KeyNavigation.backtab: session; KeyNavigation.tab: name
                 }

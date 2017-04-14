@@ -12,7 +12,7 @@ Download or clone this repo and copy this folder into
 
 Logo:
 
-    logo.png
+    resources/logo.png
 
 Background image:
 
