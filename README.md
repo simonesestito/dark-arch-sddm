@@ -4,9 +4,13 @@ An animated sddm theme with music
 
 # Installation
 
-Download or clone this repo and copy this folder into
+Download or clone this repo into
     
     /usr/share/sddm/themes
+
+# You can test it with
+
+    sddm-greeter --test --theme /usr/share/sddm/themes/darkness-of-arch-sddm
 
 # You can change the files
 
