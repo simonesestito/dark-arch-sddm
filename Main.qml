@@ -235,7 +235,7 @@ Rectangle {
                     borderColor: "#77000000"
                     textColor: "white"
 
-                    KeyNavigation.backtab: layoutBox; KeyNavigation.tab: password
+                    KeyNavigation.tab: password
                 }
 
                 PasswordBox {
@@ -296,7 +296,7 @@ Rectangle {
                     textColor: "white"
                     dropdownColor: "#22000000"
                     hoverColor: "#77000000"
-                    // width: 245
+                    width: 500
                     anchors.verticalCenter: parent.verticalCenter
 
                     arrowIcon: "resources/angle-down.png"
@@ -306,27 +306,9 @@ Rectangle {
 
                     font.pixelSize: 14
 
-                    KeyNavigation.backtab: btnPoweroff; KeyNavigation.tab: layoutBox
+                    KeyNavigation.backtab: btnPoweroff;
                 }
 
-                // Keyboard Layout
-                CustomLayoutBox {
-                    id: layoutBox
-                    width: 50
-                    disableText: true
-                    color: "transparent"
-                    borderColor: "transparent"
-                    borderWidth: 0
-                    textColor: "white"
-                    dropdownColor: "#22000000"
-                    hoverColor: "#77000000"
-                    anchors.verticalCenter: parent.verticalCenter
-                    font.pixelSize: 14
-
-                    arrowIcon: "resources/angle-down.png"
-
-                    KeyNavigation.backtab: session; KeyNavigation.tab: name
-                }
             }
 
             // Clock
