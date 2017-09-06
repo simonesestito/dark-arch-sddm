@@ -173,7 +173,7 @@ Rectangle {
 
                 Text {
                     text: "Restart"
-                    color: "#dddddd"
+                    color: "#fafafa"
                     anchors.horizontalCenter: parent.horizontalCenter
                 }
             }
@@ -198,7 +198,7 @@ Rectangle {
 
                 Text {
                     text: "Poweroff"
-                    color: "#dddddd"
+                    color: "#fafafa"
                     anchors.horizontalCenter: parent.horizontalCenter
                 }
             }
