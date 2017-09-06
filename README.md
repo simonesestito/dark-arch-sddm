@@ -1,6 +1,7 @@
-# Darkness Of Arch Theme
+# Simple Dark Theme
 
-An animated sddm theme with music
+A simple dark theme for sddm
+
 
 # Installation
 
@@ -8,9 +9,9 @@ Download or clone this repo into
     
     /usr/share/sddm/themes
 
-# You can test it with
+Then, apply the theme in KDE Settings
+(Settings > Workspace > Startup and shutdown > Login Screen (SDDM) > click on Simple Dark Theme, apply, authenticate and reboot)
 
-    sddm-greeter --test --theme /usr/share/sddm/themes/darkness-of-arch-sddm
 
 # You can change the files
 
@@ -21,14 +22,6 @@ Logo:
 Background image:
 
     background.png
-    
-The particles:
-
-    resources/lightparticle.png
-    
-The background music:
-
-    resources/bgm.ogg
     
 # Screenshot
     
