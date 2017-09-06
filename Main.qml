@@ -1,5 +1,5 @@
 /***************************************************************************
-* Copyright (c) 2017 Hüseyin ERDEM <rootofarch@gmail.com>
+* Copyright (c) 2017 Hüseyin ERDEM <rootofarch@gmail.com>, Simone Sestito
 *
 * Permission is hereby granted, free of charge, to any person
 * obtaining a copy of this software and associated documentation
