@@ -25,4 +25,4 @@ Background image:
     
 # Screenshot
     
-![screenshot](screenshot.jpg)
+![screenshot](screenshot.png)
