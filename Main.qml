@@ -24,9 +24,7 @@
 
 import QtQuick 2.0
 import SddmComponents 2.0
-import QtMultimedia 5.0
 import QtQuick.Window 2.0
-import QtQuick.Particles 2.0
 import "Components"
 
 Rectangle {
@@ -57,93 +55,6 @@ Rectangle {
             anchors.fill: parent
             source: "background.png"
             fillMode: Image.PreserveAspectCrop
-        }
-        /********* Audio *********/
-        Audio {
-            id: musicPlayer
-            autoLoad: false
-            source: "resources/bgm.ogg"
-            loops: -1
-        }
-        /********* Particles *********/
-        ParticleSystem {
-            id: bgparticle
-            paused: true
-        }
-        Emitter {
-            anchors.fill: parent
-            system: bgparticle
-            emitRate: 80
-            lifeSpan: 4000
-            lifeSpanVariation: 2000
-            size: 3
-            sizeVariation: 8
-            endSize: 3
-            startTime: 1000
-            velocity: AngleDirection{
-                angle: 270
-                angleVariation: 30
-                magnitude: 40
-                magnitudeVariation: 20
-            }
-            ImageParticle {
-                anchors.fill: parent
-                system: bgparticle
-                source: "resources/lightparticle.png"
-            }
-            Attractor {
-                system: bgparticle
-                anchors.horizontalCenter: parent.horizontalCenter
-                anchors.verticalCenter: parent.verticalCenter
-                anchors.horizontalCenterOffset: parent.width*0.08
-                anchors.verticalCenterOffset: -parent.height*0.1
-                width: parent.width*0.5; height: 200
-                pointX: parent.width*0.25
-                pointY: 0
-                strength: 0.2
-            }
-        }
-        ParticleSystem {
-            id: spiral
-            paused: true
-        }
-        Emitter {
-            anchors.bottom: parent.bottom
-            anchors.bottomMargin: parent.height*0.2
-            anchors.right: parent.right
-            anchors.rightMargin: parent.width*0.24
-            width: parent.width*0.38
-            anchors.top: parent.top
-            anchors.topMargin: parent.height*0.24
-            system: spiral
-            emitRate: 10
-            lifeSpan: 3000
-            lifeSpanVariation: 2000
-            size: 6
-            sizeVariation: 3
-            endSize: 3
-            startTime: 3000
-            velocity: AngleDirection{
-                angle: 270
-                angleVariation: 20
-                magnitude: 80
-                magnitudeVariation: 40
-            }
-            ImageParticle {
-                anchors.fill: parent
-                system: spiral
-                source: "resources/lightparticle.png"
-            }
-            Wander{
-                system: spiral
-                height: parent.height
-                width: parent.width
-                y: -parent.width*0.2
-                anchors.bottom: parent.bottom
-                affectedParameter: Wander.Position
-                pace: 1000
-                xVariance: parent.width*2
-            }
         }
         /********* Login Box *********/
         Rectangle {
@@ -243,6 +154,9 @@ Rectangle {
                     width: 177
                     font.pixelSize: 16
                     radius: 20
+					color: "#77000000"
+                    borderColor: "#77000000"
+                    textColor: "white"
 
                     focus: true
                     Timer {
@@ -328,9 +242,6 @@ Rectangle {
                 name.focus = true
             else
                 password.focus = true
-            musicPlayer.play()
-            bgparticle.resume()
-            spiral.resume()
         }
     }
 }
