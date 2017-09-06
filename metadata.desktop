@@ -1,16 +1,16 @@
 [SddmGreeterTheme]
-Name=Darkness Of Arch
-Description=An animated sddm theme
-Author=rootofarch
+Name=Simple Dark Theme
+Description=A simple dark theme for sddm
+Author=rootofarch, Simone S.
 Copyright=(c) 2017, rootofarch
 License=GPLv3
 Type=sddm-theme
-Version=1.1
-Website=https://github.com/rootofarch
+Version=1.1.1
+Website=https://github.com/simonesestito/dark-arch-sddm
 Screenshot=screenshot.jpg
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Email=rootofarch@gmail.com
-Theme-Id=darknessofarch
+Email=simone.dev.help@gmail.com
+Theme-Id=dark-arch-sddm
 Theme-API=2.0
