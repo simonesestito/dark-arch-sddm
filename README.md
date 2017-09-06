@@ -12,15 +12,11 @@ Then, apply the theme in KDE Settings
 (Settings > Workspace > Startup and shutdown > Login Screen (SDDM) > click on Simple Dark Theme, apply, authenticate and reboot)
 
 
-# You can change the files
+# FAQ
 
-Logo:
+*Q: I don't like it because I'm not on Arch*
 
-    resources/logo.png
-
-Background image:
-
-    background.png
+A: you can customize the logo replacing the file in <code>resources/logo.png</code> with your favorite one
     
 # Screenshot
     
