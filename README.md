@@ -13,16 +13,11 @@ Then, apply the theme in KDE Settings
 (Settings > Workspace > Startup and shutdown > Login Screen (SDDM) > click on Simple Dark Theme, apply, authenticate and reboot)
 
 
-# FAQ
+# Customize the logo
 
-*Q: I don't like it because I'm not on Arch*
+Did you know? In install.sh you can easily select the logo you prefer.
+It isn't in the list? Open an issue here on GitHub specifying the distro name and a url to the logo you want.
 
-A: you can customize the logo. In the install.sh you can select your favourite logo.
-
-
-*Q: My distro logo isn't in the install script*
-
-A: open a new issue and specify the distro name. If you're a good person, please attach a 512 x 512 logo in .png
     
 # Screenshot
     
