@@ -26,4 +26,4 @@ A: open a new issue and specify the distro name. If you're a good person, please
     
 # Screenshot
     
-![screenshot](screenshot.png)
+![screenshot](base/screenshot.png)
