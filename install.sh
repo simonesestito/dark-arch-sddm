@@ -9,8 +9,9 @@ echo "Which is your favourite logo?"
 echo "(1) Arch Linux"
 echo "(2) KDE neon"
 echo "(3) KDE plasma"
+echo "(4) Fedora"
 # TODO -- update $max with the max logo option index
-max=3
+max=4
 
 echo -n "==> "
 read image
@@ -30,6 +31,7 @@ case $image in
 	1) sudo cp options/logo/arch.png $theme_path/resources/logo.png ;;
 	2) sudo cp options/logo/neon.png $theme_path/resources/logo.png ;;
 	3) sudo cp options/logo/plasma.png $theme_path/resources/logo.png ;;
+	4) sudo cp options/logo/fedora.png $theme_path/resources/logo.png ;;
 	*) echo "Unexpected error!"; exit 1 ;;
 esac
 
