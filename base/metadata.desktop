@@ -1,8 +1,8 @@
 [SddmGreeterTheme]
 Name=Simple Dark Theme
 Description=A simple dark theme for sddm
-Author=rootofarch, Simone S.
-Copyright=(c) 2017, rootofarch
+Author=rootofarch, Simone Sestito
+Copyright=(c) 2017, rootofarch, Simone Sestito
 License=GPLv3
 Type=sddm-theme
 Version=1.1.1
