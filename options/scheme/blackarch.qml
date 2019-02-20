@@ -53,7 +53,7 @@ Rectangle {
         Image {
             id: background
             anchors.fill: parent
-            source: "background.png"
+            source: config.background
             fillMode: Image.PreserveAspectCrop
         }
         /********* Login Box *********/
@@ -144,6 +144,8 @@ Rectangle {
                     radius: 20
                     color: "#77000000"
                     borderColor: "#77000000"
+                    focusColor: "#77c40000"
+                    hoverColor: "#77c40000"
                     textColor: "white"
 
                     KeyNavigation.tab: password
@@ -154,8 +156,10 @@ Rectangle {
                     width: 177
                     font.pixelSize: 16
                     radius: 20
-					color: "#77000000"
+                    color: "#77000000"
                     borderColor: "#77000000"
+                    focusColor: "#77c40000"
+                    hoverColor: "#77c40000"
                     textColor: "white"
 
                     focus: true
@@ -209,7 +213,7 @@ Rectangle {
                     borderWidth: 0
                     textColor: "white"
                     dropdownColor: "#22000000"
-                    hoverColor: "#77000000"
+                    hoverColor: "#77c40000"
                     width: 500
                     anchors.verticalCenter: parent.verticalCenter
 
